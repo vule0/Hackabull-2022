@@ -1,0 +1,26 @@
+If selected: Mt, Ds, Rg, Nh, Fl, Mc, Lv, Ts, Og 
+Unknown! The charge of this cation has only been predicted in theory. These tend to be very unstable.
+
+If selected: H
+H paired with other atoms does not form a salt. However! Hydrogen-based compounds such as acids like HCl (hydrogen chloride) can become salts when combined with a base.
+
+If selected: He, Ne, Ar, Kr, Xe, Rn
+Your highness! You have selected a noble gas. These have 8 electrons in their outer electron shell, which is the number that all atoms would want ideally, so they don't want to react with other atoms--and won't form a salt.
+
+If selected: La, Ac, Ce, Th, Pr, Pa, Nd, U, Pm, Np, Sm, Pu, Eu, Am, Gd, Cm, Tb, Bk, Dy, Cf, Ho, Es, Er, Fm, Tm, Md, Yb, No, Lu, Lr
+You're a gem! You have selected a rare earth metal. But watch out--they're radioactive!
+
+If selected: C, N, P, O, S, Se
+Who passed gas? You have selected a non-metal! These often occur in nature as gases. The charges of these (other than oxygen) can vary, so they don't tend to form salts on their own. You might see them in polyatomic ions--charged groups of multiple atoms--like nitrates and phosphates, which CAN react with metals to form salts.
+
+If selected: B, Si, Ge, As, Sb, Te, Po
+Feeling indecisive? You have selected a metalloid! Their properties, though not set in stone, tend to be somewhere in-between the properties of metals and non-metals.
+
+If selected: Li, Na, K, Rb, Cs, Fr
+Why so salty? You've selected an alkali metal--these are great cations to form salts.
+
+If selected: Be, Mg, Ca, Sr, Ba, Ra
+So salty! You've selected an alkali earth metal--these work really well as cations to form salts.
+
+If selected: F, Cl, Br, I, At
+Whoah there! You've selected a halogen. These only have 7 electrons on their outer shell, but atoms really want 8, so they're highly reactive in their search for one more electron! As a result, they successfully react with metals to form salts. Be careful, though, because most are slightly toxic.
