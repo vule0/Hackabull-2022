@@ -17,7 +17,7 @@ function simple_balancing(charge_1, charge_2){
   a[0] = c2;
   a[1] = c1;
   if (c1 > 1 && c2 > 1){
-    document.getElementById('reaction').innerHTML = charge_1+   String(c1).sub() + ' ' + charge_2 + String(c2).sub();
+    document.getElementById('reaction').innerHTML = charge_1 +   String(c1).sub() + ' ' + charge_2 + String(c2).sub();
   }
   else if (c1 == 1 && c2 == 1){
 document.getElementById('reaction').innerHTML = charge_1 + ' ' + charge_2;
@@ -40,28 +40,28 @@ function messages(elem1, elem2){
   var akali = ['Li', 'Na', 'K', 'Rb', 'Cs', 'Fr'];
   var akali_earth = ['Be', 'Mg', 'Ca', 'Sr', 'Ba', 'Ra'];
   var halogens = ['F', 'Cl', 'Br', 'I', 'At'];
-  if (unstable.includes(elem1) || unstable.includes(elem2)){
+  if (unstable.includes(elem1)){
     document.getElementById('result').innerHTML = '<br/>Unknown! The charge of this cation has only been predicted in theory. These tend to be very unstable.<br/>';
   }
-  else if (nobles.includes(elem1) || nobles.includes(elem2)){
+  else if (nobles.includes(elem1)){
   document.getElementById('result').innerHTML = 'Your highness! You have selected a noble gas. These have 8 electrons in their outer electron shell, which is the number that all atoms would want ideally, so they don\'t want to react with other atoms--and won\'t form a salt.<br/><br/>';
   }
-  else if (rare_earth.includes(elem1) || rare_earth.includes(elem2)){
+  else if (rare_earth.includes(elem1)){
   document.getElementById('result').innerHTML = 'You\'re a gem! You have selected a rare earth metal. But watch out--they\'re radioactive!<br/><br/>';
   }
-  else if (non_metals.includes(elem1) || non_metals.includes(elem2)){
+  else if (non_metals.includes(elem1)){
   document.getElementById('result').innerHTML = 'Who passed gas? You have selected a non-metal! These often occur in nature as gases. The charges of these (other than oxygen) can vary, so they don\'t tend to form salts on their own. You might see them in polyatomic ions--charged groups of multiple atoms--like nitrates and phosphates, which CAN react with metals to form salts.<br/><br/>';
   }
-  else if (mettaloid.includes(elem1) || mettaloid.includes(elem2)){
+  else if (metalloid.includes(elem1)){
   document.getElementById('result').innerHTML = 'Feeling indecisive? You have selected a metalloid! Their properties, though not set in stone, tend to be somewhere in-between the properties of metals and non-metals.<br/><br/>';
   }
-  else if (akali.includes(elem1) || akali.includes(elem2)){
+  else if (akali.includes(elem1)){
   document.getElementById('result').innerHTML = 'Why so salty? You\'ve selected an alkali metal--these are great cations to form salts.<br/><br/>';
   }
-  else if (akali_earth.includes(elem1) || akali_earth.includes(elem2)){
+  else if (akali_earth.includes(elem1)){
   document.getElementById('result').innerHTML = 'So salty! You\'ve selected an alkali earth metal--these work really well as cations to form salts.<br/><br/>';
   }
-  else if (halogens.includes(elem1) || halogens.includes(elem2)){
+  else if (halogens.includes(elem1)){
   document.getElementById('result').innerHTML = 'Whoah there! You\'ve selected a halogen. These only have 7 electrons on their outer shell, but atoms really want 8, so they\'re highly reactive in their search for one more electron! As a result, they successfully react with metals to form salts. Be careful, though, because most are slightly toxic.<br/><br/>';
   }
   
